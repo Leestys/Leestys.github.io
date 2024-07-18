@@ -4,8 +4,29 @@ import {profileConfig} from "../config";
 
 ---
 
-<div class="card-base max-w-[var(--page-width)] min-h-[4.5rem] rounded-b-none mx-auto flex items-center px-6">
-    <div class="transition text-50 text-sm" style="text-align:center">
-        © 2024 {profileConfig.name}. All Rights Reserved.
-    </div>
+<div class="card-base max-w-[var(--page-width)] min-h-[4.5rem] rounded-b-none mx-auto flex justify-center items-center px-6 text-center text-50 text-sm">
+	<div>
+		<span id="runtime_span"></span>
+		<br>
+	© 2024 {profileConfig.name}. All Rights Reserved.
+	</div>
 </div>
+
+<script type="text/javascript">
+    function show_runtime() {
+        window.setTimeout("show_runtime()", 1000);
+        X = new Date("8/24/2019 10:28:00");
+        Y = new Date();
+        T = (Y.getTime() - X.getTime());
+        M = 24 * 60 * 60 * 1000;
+        a = T / M;
+        A = Math.floor(a);
+        b = (a - A) * 24;
+        B = Math.floor(b);
+        c = (b - B) * 60;
+        C = Math.floor((b - B) * 60);
+        D = Math.floor((c - C) * 60);
+        runtime_span.innerHTML = "This blog has running : " + A + " d " + B + " h " + C + " m " + D + " s "
+    }
+    show_runtime();
+</script>

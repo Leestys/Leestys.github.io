@@ -1,9 +1,13 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
-
-::github{repo="saicaca/fuwari"}
-
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+> 旧事大梦一场，不知苦饴。
+>
+> 你是北归的飞鸟，在如洗的岁月里居有一方天地。
+>
+> 我是南去的良鱼，在深遂的烟海底从此不知归期。
+>
+> 听闻路尽之后，便可各自忘记。
+>
+> 各有日落与晨曦，各有青山与白衣。
+>
+> 可后来我才知道，
+>
+> 路尽没有你，日落青山却是你。

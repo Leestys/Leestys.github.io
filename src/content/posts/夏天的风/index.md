@@ -3,7 +3,7 @@ title: 夏天的风
 published: 2020-06-21
 description: ''
 image: ./cover.jpeg
-tags: []
+tags: [随笔]
 category: '随笔'
 draft: false 
 ---
